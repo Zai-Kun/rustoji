@@ -14,7 +14,7 @@ const PNG_EMOJIS_PATH: &str = "~/assets/emojis";
 const DATA_FOLDER: &str = "~/.local/share/rustoji";
 const SUPPORTED_PICKERS: [&str; 2] = ["fuzzel", "bemenu"];
 const UNICODE_EMOJIS_FILE_URL: &str =
-    "https://github.com/ArkinSolomon/discord-emoji-converter/raw/refs/heads/master/emojis.json";
+    "https://raw.githubusercontent.com/Zai-Kun/rustoji/refs/heads/master/emojis.json";
 
 fn main() -> Result<()> {
     let expanded_png_emojis_path = expanduser(PNG_EMOJIS_PATH)?;
